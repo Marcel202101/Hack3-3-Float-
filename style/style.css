@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    height: 600px;
+    background-color: #93B5C9;
+}
+main section{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 65%;
+    background-color: #AB2849;
+}
+main ~ section {
+    width: 100%;
+    height: 660px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section article{
+    float: right;
+    width: 83.5vh;
+    margin: 0px 0px 20px 0px;
+    height: 150px;
+    background-color: #AB2849;
+}
+footer{
+    margin: 0px  20px 5px 20px;
+    height: 100px;
+    background-color: #AB2849;
+}
