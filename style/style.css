@@ -23,7 +23,7 @@ main ~ section {
     margin-bottom: 20px;
 }
 section article{
-    float: right;
+    float: left;
     width: 83.5%;
     margin: 0px 0px 20px 0px;
     height: 150px;
